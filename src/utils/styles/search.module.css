@@ -1,0 +1,63 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.inputContainer {
+  margin-bottom: 10px;
+}
+
+.inputContainer label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.buttonContainer button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.resultContainer {
+  margin-top: 20px;
+}
+
+.result {
+  margin-bottom: 10px;
+}
+
+.tableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tableContainer table th, .tableContainer table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.tableContainer table th {
+  background-color: #007bff;
+}
